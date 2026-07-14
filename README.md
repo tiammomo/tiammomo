@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
-  <img alt="Tiammomo — AI systems, developer infrastructure, and production software" src="./assets/profile-hero-light.svg" width="100%">
-</picture>
+<img alt="Tiammomo — AI systems, developer infrastructure, and production software" src="./assets/profile-hero-anime.webp" width="100%">
 
 <p align="center">
   <a href="https://tiammomo.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Explore_my_work-5B5BD6?style=for-the-badge&logo=githubpages&logoColor=white"></a>

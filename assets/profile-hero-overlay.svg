@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffdf8" stop-opacity=".92"/>
+      <stop offset=".48" stop-color="#fffdf8" stop-opacity=".54"/>
+      <stop offset=".7" stop-color="#fffdf8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset=".5" stop-color="#2563a9"/>
+      <stop offset="1" stop-color="#6d4cc7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#wash)"/>
+
+  <g transform="translate(62 45)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <rect width="6" height="27" rx="3" fill="url(#accent)"/>
+    <text x="19" y="20" fill="#0f766e" font-size="14" font-weight="700" letter-spacing="2.4">TIAMMOMO / BUILD LOG</text>
+
+    <text y="95" fill="#172033" font-size="49" font-weight="760" letter-spacing="-1.7">From model output</text>
+    <text y="151" fill="url(#accent)" font-size="49" font-weight="760" letter-spacing="-1.7">to dependable products.</text>
+
+    <text y="204" fill="#526176" font-size="18">Agent systems · developer infrastructure · full-stack products</text>
+    <text y="249" fill="#78869a" font-size="14" letter-spacing=".4">EVIDENCE  /  ARTIFACTS  /  RUNTIMES  /  OUTCOMES</text>
+  </g>
+
+  <rect x=".5" y=".5" width="1199" height="339" fill="none" stroke="#d7ddea"/>
+</svg>
