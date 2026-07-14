@@ -14,10 +14,6 @@
 
 I'm an **AI-native product builder** working where agent systems, developer infrastructure, and full-stack product engineering meet. I like taking an idea past the demo stage: explicit contracts, observable runtimes, durable state, safety boundaries, and a product people can actually use.
 
-我专注于把 AI 能力做成真正可运行、可验证、可迭代的产品，而不只是一次漂亮的模型输出。
-
-> 恒之贵，何必三更起五更睡；最无益，只怕一日曝十日寒。
-
 ## What I build
 
 <table>
