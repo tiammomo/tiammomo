@@ -1,16 +1,36 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**tiammomo/tiammomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Tiammomo
 
-Here are some ideas to get you started:
+### AI-native Product Builder
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Building agent systems, developer infrastructure  
+and production-ready full-stack products.
+
+</div>
+
+## About Me
+
+- 🤖 Building reliable AI Agent systems and workflows
+- 🛠️ Interested in developer infrastructure and model gateways
+- 🚀 Turning product ideas into deployable full-stack applications
+- 🌏 Based in China
+
+## Current Focus
+
+- Reliable Agent Runtime and long-term memory
+- Model routing and developer tooling
+- AI-native vertical SaaS products
+
+## Tech
+
+Rust · TypeScript · Python · Java · Next.js · FastAPI  
+PostgreSQL · Docker · RAG · LLM Agents
+
+## Connect
+
+- GitHub: [@tiammomo](https://github.com/tiammomo)
+
+---
+
+恒之贵，何必三更起五更睡；最无益，只怕一日曝十日寒。
