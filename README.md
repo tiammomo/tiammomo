@@ -7,28 +7,66 @@
 
 ## Hello, I'm Tiammomo
 
-I'm an **AI-native product builder** working where agent systems, developer infrastructure, and full-stack product engineering meet. I like taking an idea past the demo stage: explicit contracts, observable runtimes, durable state, safety boundaries, and a product people can actually use.
+I'm an **AI-native product builder** working where agent systems, developer infrastructure, and full-stack product engineering meet. I take ideas past the demo stage: explicit contracts, observable runtimes, durable state, safety boundaries, and products people can actually use.
 
-## What I build
+Right now I spend most of my time on coding-agent infrastructure, model gateways, and local inference. I also contribute production fixes to open-source agent projects.
+
+## Selected work
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>Agent systems</h3>
-      <p>Evidence-aware agents, versioned artifacts, resumable runs, long-term memory, RAG, and human review loops.</p>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tiammomo/RepoSteward">RepoSteward</a></h3>
+      <p>A local-first, policy-gated control plane that turns reviewed GitHub Issues into verified, human-reviewed pull requests.</p>
+      <p><code>Python</code> · coding agents · hardened verification</p>
     </td>
-    <td width="33%" valign="top">
-      <h3>Developer infrastructure</h3>
-      <p>Model gateways, protocol adapters, routing, quotas, observability, security boundaries, and deployment tooling.</p>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tiammomo/ModelPort">ModelPort</a></h3>
+      <p>A self-hosted Anthropic-compatible model gateway for Claude Code, provider routing, quotas, observability, and team-owned policy.</p>
+      <p><code>Rust</code> · model infrastructure · operations</p>
     </td>
-    <td width="33%" valign="top">
-      <h3>AI-native products</h3>
-      <p>End-to-end workspaces that turn research, data, and generated content into traceable product workflows.</p>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tiammomo/QuantPilot">QuantPilot</a></h3>
+      <p>A workspace that turns natural-language requests into traceable stock research, screens, backtests, portfolio insights, and interactive dashboards.</p>
+      <p><code>TypeScript</code> · agent workflows · finance</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tiammomo/qwen38-27b-llamacpp">Qwen3.8 27B · llama.cpp</a></h3>
+      <p>Runs Qwen3.8-27B locally through llama.cpp, with verified GGUF downloads, CUDA acceleration, an OpenAI-compatible API, and safe LAN access.</p>
+      <p><code>Python</code> · llama.cpp · CUDA · Docker</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tiammomo/local-inference-stack">Local Inference Stack</a></h3>
+      <p>A reusable local LLM stack with hardware-aware model selection, verified GGUF downloads, llama.cpp CUDA deployment, quality gates, and observability.</p>
+      <p><code>Python</code> · llama.cpp · CUDA · Docker</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tiammomo/MuseForge">MuseForge</a></h3>
+      <p>A local workspace for e-commerce teams to structure prompts, generate images in batches, review candidates, edit on a canvas, and prepare final assets.</p>
+      <p><code>Python</code> · generative media · product workflow</p>
     </td>
   </tr>
 </table>
 
-<img alt="Two anime creators building an AI workflow together" src="./assets/profile-anime-workspace.webp" width="100%">
+## Open-source work
+
+In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent work covers runtime contracts, durable state, performance, CI, provider integrations, and desktop/mobile reliability.
+
+| Project | Recent focus | Contributions |
+| --- | --- | --- |
+| [SkillNerds/xskill](https://github.com/SkillNerds/xskill) | Agent/task runtimes, incremental indexes, performance contracts, reliability, and CI | [33+ merged PRs](https://github.com/SkillNerds/xskill/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged) |
+| [makecindy/cindy](https://github.com/makecindy/cindy) | Desktop/mobile reliability, provider routing, session state, and tool transport | [25+ merged PRs](https://github.com/makecindy/cindy/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged) |
+| Wider ecosystem | [DeerFlow](https://github.com/bytedance/deer-flow), [llm-space](https://github.com/deer-flow/llm-space), [LazyLLM](https://github.com/LazyAGI/LazyLLM), and [Moyuan Research](https://github.com/moyuan-research/moyuan-website) | [Browse external merged PRs](https://github.com/search?q=author%3Atiammomo+is%3Apr+is%3Amerged+-user%3Atiammomo+merged%3A%3E%3D2026-01-01&type=pullrequests) |
+
+## GitHub Roast
+
+<a href="https://ghfind.com/u/tiammomo?ref=badge">
+  <img alt="GitHub Roast for @tiammomo" src="https://ghfind.com/api/card/tiammomo?theme=dark" width="100%">
+</a>
 
 ## Engineering fingerprints
 
@@ -36,8 +74,6 @@ I'm an **AI-native product builder** working where agent systems, developer infr
 - **Artifacts before prose** — important state belongs in typed, versioned contracts instead of transient model text.
 - **Boundaries before scale** — authentication, isolation, quotas, failure modes, and operational limits are product features.
 - **Products before demos** — the interface, recovery path, documentation, and quality gate matter as much as the model call.
-
-<img alt="Two anime creators winding down after a day of building" src="./assets/profile-anime-night.webp" width="100%">
 
 ## Toolbox
 
