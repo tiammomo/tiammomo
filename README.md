@@ -11,14 +11,39 @@ I'm an engineer working on **agent algorithms** and the systems around them. My 
 
 I care about the unglamorous parts too: evaluation, durable state, recovery, observability, and safety boundaries. A useful agent should be able to explain what it did and recover when something goes wrong.
 
-## Current focus
+## What I'm working on
 
-| Problem | What I'm working on | Stack |
-| --- | --- | --- |
-| Planning and orchestration | Decompose long tasks, route tools and models, coordinate specialized agents | Python, structured outputs, tool protocols |
-| Learning and retrieval | Mine execution trajectories, evolve reusable skills and memory, combine RAG with ranking and clustering | Vector search, Milvus, PostgreSQL, Redis |
-| Evaluation and runtime | Replay failures, enforce deterministic contracts, measure hot paths, resume interrupted runs | Python, Docker, Prometheus |
-| Product surfaces | Turn agent state, evidence, and evaluation results into inspectable workflows | TypeScript, React, Next.js, FastAPI |
+### Planning and orchestration
+
+I work on long-task decomposition, tool and model routing, and coordination between specialized agents.
+
+`Python` · `Structured outputs` · `Tool protocols`
+
+### Learning from runs
+
+I turn execution trajectories into reusable skills and memory, then retrieve them with ranking, clustering, and vector search.
+
+`RAG` · `Milvus` · `PostgreSQL` · `Redis`
+
+### Evaluation and runtime
+
+Failures need to be replayable. I build deterministic contracts, profile hot paths, and keep interrupted runs resumable.
+
+`Python` · `Rust` · `Docker` · `Prometheus`
+
+### Product surfaces
+
+I expose agent state, evidence, and evaluation results in workflows people can inspect and control.
+
+`TypeScript` · `React` · `Next.js` · `FastAPI`
+
+## Open-source work
+
+In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent work covers runtime contracts, durable state, performance, CI, provider integrations, and desktop/mobile reliability.
+
+- [SkillNerds/xskill](https://github.com/SkillNerds/xskill) ([33+ merged PRs](https://github.com/SkillNerds/xskill/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged)): agent/task runtimes, incremental indexes, performance contracts, reliability, and CI.
+- [makecindy/cindy](https://github.com/makecindy/cindy) ([25+ merged PRs](https://github.com/makecindy/cindy/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged)): desktop/mobile reliability, provider routing, session state, and tool transport.
+- Wider ecosystem: [DeerFlow](https://github.com/bytedance/deer-flow), [llm-space](https://github.com/deer-flow/llm-space), [LazyLLM](https://github.com/LazyAGI/LazyLLM), and [Moyuan Research](https://github.com/moyuan-research/moyuan-website). [Browse external merged PRs](https://github.com/search?q=author%3Atiammomo+is%3Apr+is%3Amerged+-user%3Atiammomo+merged%3A%3E%3D2026-01-01&type=pullrequests).
 
 ## Selected projects
 
@@ -31,21 +56,11 @@ I care about the unglamorous parts too: evaluation, durable state, recovery, obs
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tiammomo/QuantPilot">QuantPilot</a></h3>
-      <p>A workspace that turns natural-language requests into traceable stock research, screens, backtests, portfolio insights, and interactive dashboards.</p>
+      <p>A workspace that turns natural-language requests into traceable stock analysis, screening, backtests, portfolio insights, and interactive dashboards.</p>
       <p><code>TypeScript</code> · agent workflows · finance</p>
     </td>
   </tr>
 </table>
-
-## Open-source work
-
-In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent work covers runtime contracts, durable state, performance, CI, provider integrations, and desktop/mobile reliability.
-
-| Project | Recent focus | Contributions |
-| --- | --- | --- |
-| [SkillNerds/xskill](https://github.com/SkillNerds/xskill) | Agent/task runtimes, incremental indexes, performance contracts, reliability, and CI | [33+ merged PRs](https://github.com/SkillNerds/xskill/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged) |
-| [makecindy/cindy](https://github.com/makecindy/cindy) | Desktop/mobile reliability, provider routing, session state, and tool transport | [25+ merged PRs](https://github.com/makecindy/cindy/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged) |
-| Wider ecosystem | [DeerFlow](https://github.com/bytedance/deer-flow), [llm-space](https://github.com/deer-flow/llm-space), [LazyLLM](https://github.com/LazyAGI/LazyLLM), and [Moyuan Research](https://github.com/moyuan-research/moyuan-website) | [Browse external merged PRs](https://github.com/search?q=author%3Atiammomo+is%3Apr+is%3Amerged+-user%3Atiammomo+merged%3A%3E%3D2026-01-01&type=pullrequests) |
 
 ## GitHub Roast
 
