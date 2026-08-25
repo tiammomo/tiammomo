@@ -1,4 +1,4 @@
-<img alt="Tiammomo — AI systems, developer infrastructure, and production software" src="./assets/profile-hero-anime.webp" width="100%">
+<img alt="Tiammomo: agent algorithms, developer infrastructure, and production software" src="./assets/profile-hero-anime.webp" width="100%">
 
 <p align="center">
   <a href="https://tiammomo.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Explore_my_work-5B5BD6?style=for-the-badge&logo=githubpages&logoColor=white"></a>
@@ -7,47 +7,32 @@
 
 ## Hello, I'm Tiammomo
 
-I'm an **AI-native product builder** working where agent systems, developer infrastructure, and full-stack product engineering meet. I take ideas past the demo stage: explicit contracts, observable runtimes, durable state, safety boundaries, and products people can actually use.
+I'm an engineer working on **agent algorithms** and the systems around them. My current work focuses on how agents plan and split work, choose tools and models, retrieve useful memory, coordinate with other agents, and learn from execution traces.
 
-Right now I spend most of my time on coding-agent infrastructure, model gateways, and local inference. I also contribute production fixes to open-source agent projects.
+I care about the unglamorous parts too: evaluation, durable state, recovery, observability, and safety boundaries. A useful agent should be able to explain what it did and recover when something goes wrong.
 
-## Selected work
+## Current focus
+
+| Problem | What I'm working on | Stack |
+| --- | --- | --- |
+| Planning and orchestration | Decompose long tasks, route tools and models, coordinate specialized agents | Python, structured outputs, tool protocols |
+| Learning and retrieval | Mine execution trajectories, evolve reusable skills and memory, combine RAG with ranking and clustering | Vector search, Milvus, PostgreSQL, Redis |
+| Evaluation and runtime | Replay failures, enforce deterministic contracts, measure hot paths, resume interrupted runs | Python, Docker, Prometheus |
+| Product surfaces | Turn agent state, evidence, and evaluation results into inspectable workflows | TypeScript, React, Next.js, FastAPI |
+
+## Selected projects
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/tiammomo/RepoSteward">RepoSteward</a></h3>
-      <p>A local-first, policy-gated control plane that turns reviewed GitHub Issues into verified, human-reviewed pull requests.</p>
-      <p><code>Python</code> · coding agents · hardened verification</p>
-    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tiammomo/ModelPort">ModelPort</a></h3>
       <p>A self-hosted Anthropic-compatible model gateway for Claude Code, provider routing, quotas, observability, and team-owned policy.</p>
       <p><code>Rust</code> · model infrastructure · operations</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tiammomo/QuantPilot">QuantPilot</a></h3>
       <p>A workspace that turns natural-language requests into traceable stock research, screens, backtests, portfolio insights, and interactive dashboards.</p>
       <p><code>TypeScript</code> · agent workflows · finance</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/tiammomo/qwen38-27b-llamacpp">Qwen3.8 27B · llama.cpp</a></h3>
-      <p>Runs Qwen3.8-27B locally through llama.cpp, with verified GGUF downloads, CUDA acceleration, an OpenAI-compatible API, and safe LAN access.</p>
-      <p><code>Python</code> · llama.cpp · CUDA · Docker</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/tiammomo/local-inference-stack">Local Inference Stack</a></h3>
-      <p>A reusable local LLM stack with hardware-aware model selection, verified GGUF downloads, llama.cpp CUDA deployment, quality gates, and observability.</p>
-      <p><code>Python</code> · llama.cpp · CUDA · Docker</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/tiammomo/MuseForge">MuseForge</a></h3>
-      <p>A local workspace for e-commerce teams to structure prompts, generate images in batches, review candidates, edit on a canvas, and prepare final assets.</p>
-      <p><code>Python</code> · generative media · product workflow</p>
     </td>
   </tr>
 </table>
@@ -64,33 +49,7 @@ In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent w
 
 ## GitHub Roast
 
-<a href="https://ghfind.com/u/tiammomo?ref=badge">
-  <img alt="GitHub Roast for @tiammomo" src="https://ghfind.com/api/card/tiammomo?theme=dark" width="100%">
-</a>
-
-## Engineering fingerprints
-
-- **Evidence before confidence** — sources, provenance, and outcomes should remain inspectable.
-- **Artifacts before prose** — important state belongs in typed, versioned contracts instead of transient model text.
-- **Boundaries before scale** — authentication, isolation, quotas, failure modes, and operational limits are product features.
-- **Products before demos** — the interface, recovery path, documentation, and quality gate matter as much as the model call.
-
-## Toolbox
-
-<p>
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white">
-</p>
+[![GitHub Roast](https://ghfind.com/api/card/tiammomo?theme=dark)](https://ghfind.com/u/tiammomo?ref=badge)
 
 ## Elsewhere
 
