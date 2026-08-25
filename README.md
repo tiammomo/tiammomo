@@ -1,8 +1,9 @@
-<img alt="Tiammomo: agent algorithms, developer infrastructure, and production software" src="./assets/profile-hero-anime.webp" width="100%">
+<img alt="Tiammomo: building agents that learn from execution" src="./assets/profile-hero-agent-v2.webp" width="100%">
 
 <p align="center">
   <a href="https://tiammomo.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Explore_my_work-5B5BD6?style=for-the-badge&logo=githubpages&logoColor=white"></a>
-  <img alt="Based in China" src="https://img.shields.io/badge/Based_in-China-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white">
+  <a href="https://github.com/search?q=author%3Atiammomo+is%3Apr+is%3Amerged+-user%3Atiammomo+merged%3A%3E%3D2026-01-01&type=pullrequests"><img alt="63+ merged open-source PRs in 2026" src="https://img.shields.io/badge/Open_source-63%2B_merged_PRs_in_2026-2563A9?style=for-the-badge&logo=github&logoColor=white"></a>
+  <img alt="China, UTC+8" src="https://img.shields.io/badge/China-UTC%2B8-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white">
 </p>
 
 ## Hello, I'm Tiammomo
@@ -13,37 +14,55 @@ I care about the unglamorous parts too: evaluation, durable state, recovery, obs
 
 ## What I'm working on
 
-### Planning and orchestration
-
-I work on long-task decomposition, tool and model routing, and coordination between specialized agents.
-
-`Python` · `Structured outputs` · `Tool protocols`
-
-### Learning from runs
-
-I turn execution trajectories into reusable skills and memory, then retrieve them with ranking, clustering, and vector search.
-
-`RAG` · `Milvus` · `PostgreSQL` · `Redis`
-
-### Evaluation and runtime
-
-Failures need to be replayable. I build deterministic contracts, profile hot paths, and keep interrupted runs resumable.
-
-`Python` · `Rust` · `Docker` · `Prometheus`
-
-### Product surfaces
-
-I expose agent state, evidence, and evaluation results in workflows people can inspect and control.
-
-`TypeScript` · `React` · `Next.js` · `FastAPI`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Planning and orchestration</h3>
+      <p>I decompose long tasks, route tools and models, and coordinate specialized agents.</p>
+      <p><code>Python</code> · structured outputs · tool protocols</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Learning from runs</h3>
+      <p>I turn execution trajectories into reusable skills and memory, then retrieve them with ranking, clustering, and vector search.</p>
+      <p><code>RAG</code> · <code>Milvus</code> · <code>PostgreSQL</code> · <code>Redis</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Evaluation and runtime</h3>
+      <p>I replay failures, enforce deterministic contracts, profile hot paths, and keep interrupted runs resumable.</p>
+      <p><code>Python</code> · <code>Rust</code> · <code>Docker</code> · <code>Prometheus</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Product surfaces</h3>
+      <p>I expose agent state, evidence, and evaluation results in workflows people can inspect and control.</p>
+      <p><code>TypeScript</code> · <code>React</code> · <code>Next.js</code> · <code>FastAPI</code></p>
+    </td>
+  </tr>
+</table>
 
 ## Open-source work
 
 In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent work covers runtime contracts, durable state, performance, CI, provider integrations, and desktop/mobile reliability.
 
-- [SkillNerds/xskill](https://github.com/SkillNerds/xskill) ([33+ merged PRs](https://github.com/SkillNerds/xskill/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged)): agent/task runtimes, incremental indexes, performance contracts, reliability, and CI.
-- [makecindy/cindy](https://github.com/makecindy/cindy) ([25+ merged PRs](https://github.com/makecindy/cindy/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged)): desktop/mobile reliability, provider routing, session state, and tool transport.
-- Wider ecosystem: [DeerFlow](https://github.com/bytedance/deer-flow), [llm-space](https://github.com/deer-flow/llm-space), [LazyLLM](https://github.com/LazyAGI/LazyLLM), and [Moyuan Research](https://github.com/moyuan-research/moyuan-website). [Browse external merged PRs](https://github.com/search?q=author%3Atiammomo+is%3Apr+is%3Amerged+-user%3Atiammomo+merged%3A%3E%3D2026-01-01&type=pullrequests).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SkillNerds/xskill">SkillNerds/xskill</a></h3>
+      <p>Agent/task runtimes, incremental indexes, performance contracts, reliability, and CI.</p>
+      <a href="https://github.com/SkillNerds/xskill/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged"><img alt="33+ merged PRs to xskill" src="https://img.shields.io/badge/Merged_PRs-33%2B-6D4CC7?style=flat-square&logo=github&logoColor=white"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/makecindy/cindy">makecindy/cindy</a></h3>
+      <p>Desktop/mobile reliability, provider routing, session state, and tool transport.</p>
+      <a href="https://github.com/makecindy/cindy/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged"><img alt="25+ merged PRs to cindy" src="https://img.shields.io/badge/Merged_PRs-25%2B-0F766E?style=flat-square&logo=github&logoColor=white"></a>
+    </td>
+  </tr>
+</table>
+
+<p>
+  Also contributed to <a href="https://github.com/bytedance/deer-flow">DeerFlow</a>, <a href="https://github.com/deer-flow/llm-space">llm-space</a>, <a href="https://github.com/LazyAGI/LazyLLM">LazyLLM</a>, and <a href="https://github.com/moyuan-research/moyuan-website">Moyuan Research</a>. <a href="https://github.com/search?q=author%3Atiammomo+is%3Apr+is%3Amerged+-user%3Atiammomo+merged%3A%3E%3D2026-01-01&type=pullrequests">Browse all external merged PRs</a>.
+</p>
 
 ## Selected projects
 
@@ -52,12 +71,18 @@ In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent w
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tiammomo/ModelPort">ModelPort</a></h3>
       <p>A self-hosted Anthropic-compatible model gateway for Claude Code, provider routing, quotas, observability, and team-owned policy.</p>
-      <p><code>Rust</code> · model infrastructure · operations</p>
+      <p>
+        <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white">
+        <img alt="ModelPort stars" src="https://img.shields.io/github/stars/tiammomo/ModelPort?style=flat-square&label=stars&color=2563A9">
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tiammomo/QuantPilot">QuantPilot</a></h3>
       <p>A workspace that turns natural-language requests into traceable stock analysis, screening, backtests, portfolio insights, and interactive dashboards.</p>
-      <p><code>TypeScript</code> · agent workflows · finance</p>
+      <p>
+        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+        <img alt="QuantPilot stars" src="https://img.shields.io/github/stars/tiammomo/QuantPilot?style=flat-square&label=stars&color=6D4CC7">
+      </p>
     </td>
   </tr>
 </table>
@@ -65,11 +90,6 @@ In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent w
 ## GitHub Roast
 
 [![GitHub Roast](https://ghfind.com/api/card/tiammomo?theme=dark)](https://ghfind.com/u/tiammomo?ref=badge)
-
-## Elsewhere
-
-- **Portfolio & project notes:** [tiammomo.github.io](https://tiammomo.github.io/)
-- **Location:** China · UTC+8
 
 <p align="center">
   <sub>Build patiently. Verify relentlessly. Keep what works.</sub>
