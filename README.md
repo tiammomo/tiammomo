@@ -89,11 +89,7 @@ In 2026, I've landed **63+ pull requests in repositories I don't own**. Recent w
 
 ## GitHub Roast
 
-<p align="center">
-  <a href="https://ghfind.com/u/tiammomo?ref=badge">
-    <img alt="GitHub Roast for @tiammomo" src="https://ghfind.com/api/card/tiammomo?theme=dark" width="480">
-  </a>
-</p>
+[![GitHub Roast 评分卡](https://ghfind.com/api/card/mini/tiammomo?variant=radar&theme=dark&lang=zh)](https://ghfind.com/u/tiammomo?ref=badge)
 
 <p align="center">
   <sub>Build patiently. Verify relentlessly. Keep what works.</sub>
