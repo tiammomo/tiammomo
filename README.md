@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://tiammomo.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Explore-6D4CC7?style=flat-square&logo=githubpages&logoColor=white"></a>
-  <a href="https://github.com/search?q=author%3Atiammomo%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Atiammomo%20merged%3A%3E%3D2026-01-01&amp;type=pullrequests"><img alt="81 merged public PRs in 2026 as of 2026-09-09" src="https://img.shields.io/badge/Open_source-81_merged_PRs-2563A9?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="https://github.com/search?q=author%3Atiammomo%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Atiammomo%20merged%3A%3E%3D2026-01-01&amp;type=pullrequests"><img alt="88 merged public PRs in 2026 as of 2026-09-15" src="https://img.shields.io/badge/Open_source-88_merged_PRs-2563A9?style=flat-square&logo=github&logoColor=white"></a>
   <img alt="China, UTC+8" src="https://img.shields.io/badge/China-UTC%2B8-0F766E?style=flat-square&logo=googlemaps&logoColor=white">
 </p>
 
@@ -56,15 +56,15 @@ My work spans task planning, reusable skills, memory, and evaluation.
 
 ## Open-source contributions
 
-**81 merged PRs across 5 public projects in 2026.** Updated September 9, 2026; personal repositories excluded.
+**88 merged PRs across 6 public projects in 2026.** Updated September 15, 2026; personal repositories excluded.
 
 | Project | Merged PRs | Highlight |
 | --- | ---: | --- |
 | [xskill](https://github.com/SkillNerds/xskill) | [49](https://github.com/SkillNerds/xskill/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged+merged%3A%3E%3D2026-01-01) | [Separate logical tasks from execution attempts](https://github.com/SkillNerds/xskill/pull/326). |
 | [Cindy](https://github.com/makecindy/cindy) | [26](https://github.com/makecindy/cindy/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged+merged%3A%3E%3D2026-01-01) | [Sync pinned sessions from desktop to mobile](https://github.com/makecindy/cindy/pull/1492). |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | [4](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged+merged%3A%3E%3D2026-01-01) | [Bound HTTP connection and read waits](https://github.com/bytedance/deer-flow/pull/5315). |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | [10](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Atiammomo+is%3Amerged+merged%3A%3E%3D2026-01-01) | [Preview upcoming scheduled runs](https://github.com/bytedance/deer-flow/pull/5381). |
 
-Also contributed to [llm-space](https://github.com/deer-flow/llm-space/pull/126) and [LazyLLM](https://github.com/LazyAGI/LazyLLM/pull/1270). [Full contribution record and methodology](docs/github-activity-2026-09-09.md).
+Also contributed to [xskill-wiki](https://github.com/SkillNerds/xskill-wiki/pull/7), [llm-space](https://github.com/deer-flow/llm-space/pull/126) and [LazyLLM](https://github.com/LazyAGI/LazyLLM/pull/1270). [Full contribution record and methodology](docs/github-activity-2026-09-15.md).
 
 ## GitHub Roast
 
