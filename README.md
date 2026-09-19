@@ -70,7 +70,7 @@ Also contributed to [xskill-wiki](https://github.com/SkillNerds/xskill-wiki/pull
 
 <p align="center">
   <a href="https://ghfind.com/u/tiammomo?ref=badge">
-    <img alt="GitHub Roast" src="https://ghfind.com/api/card/tiammomo?theme=light">
+    <img alt="GitHub Roast 评分卡" src="https://ghfind.com/api/card/mini/tiammomo?variant=radar&amp;theme=dark">
   </a>
 </p>
 
